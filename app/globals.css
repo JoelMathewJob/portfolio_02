@@ -22,3 +22,206 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* @keyframes marquee-left-to-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+@keyframes marquee-right-to-left {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes blob {
+  0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  25% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+  50% { border-radius: 50% 60% 30% 60% / 40% 30% 70% 50%; }
+  75% { border-radius: 40% 60% 70% 30% / 60% 40% 60% 50%; }
+}
+
+@keyframes blob-motion {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5%, 10%) rotate(5deg); }
+  50% { transform: translate(-5%, 5%) rotate(-5deg); }
+  75% { transform: translate(10%, -5%) rotate(3deg); }
+}
+
+.animate-marquee-left-to-right {
+  animation: marquee-left-to-right 80s linear infinite;
+}
+
+.animate-marquee-right-to-left {
+  animation: marquee-right-to-left 80s linear infinite;
+}
+
+.animate-blob {
+  animation: blob 8s ease-in-out infinite;
+}
+
+.animate-blob-motion {
+  animation: blob-motion 20s ease-in-out infinite;
+}
+
+
+.h-120 {
+  height: 30rem;
+}
+
+.w-120 {
+  width: 30rem;
+} */
+
+
+/* second */
+
+/* @keyframes marquee-left-to-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+@keyframes marquee-right-to-left {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes blob {
+  0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  25% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+  50% { border-radius: 50% 60% 30% 60% / 40% 30% 70% 50%; }
+  75% { border-radius: 40% 60% 70% 30% / 60% 40% 60% 50%; }
+}
+
+@keyframes blob-motion {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5%, 10%) rotate(5deg); }
+  50% { transform: translate(-5%, 5%) rotate(-5deg); }
+  75% { transform: translate(10%, -5%) rotate(3deg); }
+}
+
+.animate-marquee-left-to-right {
+  animation: marquee-left-to-right 80s linear infinite;
+}
+
+.animate-marquee-right-to-left {
+  animation: marquee-right-to-left 80s linear infinite;
+}
+
+.animate-blob {
+  animation: blob 8s ease-in-out infinite;
+}
+
+.animate-blob-motion {
+  animation: blob-motion 20s ease-in-out infinite;
+}
+
+
+.h-120 {
+  height: 30rem;
+}
+
+.w-120 {
+  width: 30rem;
+} */
+
+@keyframes marquee-left-to-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+@keyframes marquee-right-to-left {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes blob {
+  0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  25% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+  50% { border-radius: 50% 60% 30% 60% / 40% 30% 70% 50%; }
+  75% { border-radius: 40% 60% 70% 30% / 60% 40% 60% 50%; }
+}
+
+@keyframes blob-motion {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5%, 10%) rotate(5deg); }
+  50% { transform: translate(-5%, 5%) rotate(-5deg); }
+  75% { transform: translate(10%, -5%) rotate(3deg); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes float-medium {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes float-fast {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes subtle-pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+.animate-marquee-left-to-right {
+  animation: marquee-left-to-right 120s linear infinite; /* Slowed down */
+}
+
+.animate-marquee-right-to-left {
+  animation: marquee-right-to-left 120s linear infinite; /* Slowed down */
+}
+
+.animate-blob {
+  animation: blob 12s ease-in-out infinite; /* Slowed down */
+}
+
+.animate-blob-motion {
+  animation: blob-motion 30s ease-in-out infinite; /* Slowed down */
+}
+
+.animate-float-slow {
+  animation: float-slow 15s ease-in-out infinite;
+}
+
+.animate-float-medium {
+  animation: float-medium 12s ease-in-out infinite;
+}
+
+.animate-float-fast {
+  animation: float-fast 8s ease-in-out infinite;
+}
+
+.animate-subtle-pulse {
+  animation: subtle-pulse 4s ease-in-out infinite;
+}
+
+/* Custom sizes */
+.h-120 {
+  height: 30rem;
+}
+.w-120 {
+  width: 30rem;
+}
+
+.h-38 {
+  height: 9.5rem;
+}
+.w-38 {
+  width: 9.5rem;
+}
+
+.h-46 {
+  height: 11.5rem;
+}
+.w-46 {
+  width: 11.5rem;
+}
+
+.-rotate-15 {
+  transform: rotate(-15deg);
+}
